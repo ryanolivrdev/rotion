@@ -6,6 +6,7 @@ import {
   DeleteDocumentRequest,
   FetchAllDocumentsResponse,
   FetchDocumentRequest,
+  FetchDocumentResponse,
   SaveDocumentRequest,
 } from '@shared/types/ipc'
 
@@ -24,7 +25,7 @@ const api = {
 
   fetchDocument: (
     req: FetchDocumentRequest,
-  ): Promise<FetchAllDocumentsResponse> => {
+  ): Promise<FetchDocumentResponse> => {
     return ipcRenderer.invoke(IPC.DOCUMENT.FETCH, req)
   },
 
