@@ -24,7 +24,7 @@ export function createTray(window: BrowserWindow) {
     },
     {
       label: 'Discover',
-      accelerator: 'control+1',
+      accelerator: 'CommandOrControl+N',
       acceleratorWorksWhenHidden: false,
       click: () => {
         console.log('Criar novo documento')
