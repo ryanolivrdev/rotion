@@ -9,7 +9,7 @@ export function Routes() {
       main={
         <Route path="/" element={<Default />}>
           <Route path="/" element={<Black />} />
-          <Route path="/document" element={<Document />} />
+          <Route path="/documents/:id" element={<Document />} />
         </Route>
       }
     />
