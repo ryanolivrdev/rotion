@@ -1,7 +1,7 @@
 {
   "name": "rotion",
   "productName": "Rotion",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Rotion is the connected workspace where better, faster work happens.",
   "main": "./out/main/index.js",
   "author": "ryanolivr.dev",
