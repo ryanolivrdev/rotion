@@ -1,6 +1,6 @@
-# rotion
+# Rotion
 
-An Electron application with React and TypeScript
+Rotion is the connected workspace where better, faster work happens.
 
 ## Recommended IDE Setup
 

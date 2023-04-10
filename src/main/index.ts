@@ -32,6 +32,7 @@ function createWindow(): void {
 
   createTray(mainWindow)
   createShortcuts(mainWindow)
+  mainWindow.setTitle('Rotion')
 
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
@@ -70,7 +71,7 @@ if (process.platform === 'darwin') {
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
   // Set app user model id for windows
-  electronApp.setAppUserModelId('com.electron')
+  electronApp.setAppUserModelId('com.ryanolivr.rotion')
 
   // Default open or close DevTools by F12 in development
   // and ignore CommandOrControl + R in production.
